@@ -141,8 +141,11 @@ I used the [PyTorch implementation](https://pytorch.org/vision/stable/models.htm
 
 We provide the code for downloading our model checkpoint:
 ```python
-# Download our pre-trained model
+# Download our pre-trained model, sh doesn't work
 $ ./scripts/download_model_checkpoint.sh
+https://drive.google.com/file/d/1w7dztGAsPHD_fl_Kv_a8qHL4eW92rlQg/view?usp=sharing
+
+https://drive.google.com/file/d/1dJTPikk1V4No-4vfq1269IFEfbDZvrV6/view?usp=sharing
 ```
 This will download the checkpoint `checkpoint.ckpt` inside the `checkpoint` folder.
 

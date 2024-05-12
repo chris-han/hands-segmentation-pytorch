@@ -3,3 +3,6 @@ __pycache__
 data
 checkpoint
 lightning_logs
+data_set/
+
+*.log
