@@ -53,7 +53,7 @@ def get_model(args):
     }
     model = HandSegModel(**model_args)
     if len(args.model_checkpoint) > 0:
-        model = model.load_from_checkpoint(args.model_checkpoint, **model_args)
+        model = HandSegModel.load_from_checkpoint(args.model_checkpoint, **model_args)
         print(f'Loaded checkpoint from {args.model_checkpoint}.')
     return model
 
